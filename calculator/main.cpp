@@ -41,16 +41,23 @@ int main(int argc, char **argv) {
     double b = NULL;
     int state = 1; //expect first number = a, expect operator = b, expect second number = c
     while(1) {
-        if(state == 1) {
-            scanf()
-        }
-        if(scanf("%lf", &a) == 1) {
-            if
-        } else if(scanf("%s",&str) == 1) {
-            //printf("%s - string\n",&str);
-        }
-        if(str == 'Q') {
+        if (str == "Q") {
             break;
+        } else {
+            if (state == 1) {
+                if (scanf("%lf", &a) == 1) {
+                    b = NULL;
+                    state = 2;
+                }
+            } else if(state == 2) {
+                if(scanf("%s", &str) == 1) {
+                    if(str == "+" || str == "-" || str == "/" || str == "*") {
+                        state = 3
+                    } else if(str == "sin" || str == "cos" || str == "tan" || str == "sqrt") {
+
+                    }
+                }
+            }
         }
     }
     return 0;
