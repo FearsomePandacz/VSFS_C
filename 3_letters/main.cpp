@@ -17,6 +17,6 @@ int main(int argc, char **argv) {
     const char *chars[4] = {"T","G","C","A"};
     int x = combination(4, 3);
     for(int i = 0; i < x; i++) {
-        printf("%c%c%c",chars[])
+        printf("%c%c%c",chars[]);
     }
 }
