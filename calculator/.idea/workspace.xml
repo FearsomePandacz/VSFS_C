@@ -12,11 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33050d18-1eea-4282-82d0-6cb57d56e0b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3_letters/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../3_letters/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3_letters/main.cpp" afterPath="$PROJECT_DIR$/../3_letters/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../age_days/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../age_days/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../divisors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../divisors/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../months/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../months/.idea/workspace.xml" />
     </list>
     <ignored path="kalkulacka.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +37,7 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="0">
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
@@ -49,19 +47,9 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-              <folding>
-                <marker date="1476261743263" expanded="true" signature="73:94" ph="{...}" />
-                <marker date="1476261743263" expanded="true" signature="123:144" ph="{...}" />
-                <marker date="1476261743263" expanded="true" signature="173:194" ph="{...}" />
-                <marker date="1476261743263" expanded="true" signature="221:242" ph="{...}" />
-                <marker date="1476261743263" expanded="true" signature="262:285" ph="{...}" />
-                <marker date="1476261743263" expanded="true" signature="300:322" ph="{...}" />
-                <marker date="1476261743263" expanded="true" signature="337:359" ph="{...}" />
-                <marker date="1476261743263" expanded="true" signature="374:396" ph="{...}" />
-                <marker date="1476261743263" expanded="true" signature="430:811" ph="{...}" />
-              </folding>
+            <state relative-caret-position="435">
+              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,7 +110,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3_letters" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.kalkulacka">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
@@ -314,6 +302,8 @@
       <workItem from="1476230545974" duration="19000" />
       <workItem from="1476230915614" duration="220000" />
       <workItem from="1476261599735" duration="143000" />
+      <workItem from="1476269967403" duration="1202000" />
+      <workItem from="1476271195695" duration="397000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1476231078095</created>
@@ -326,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6471000" />
+    <option name="totallyTimeSpent" value="8070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
@@ -376,6 +366,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
@@ -386,17 +392,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1476261743263" expanded="true" signature="73:94" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="123:144" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="173:194" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="221:242" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="262:285" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="300:322" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="337:359" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="374:396" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="430:811" ph="{...}" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -428,28 +440,26 @@
     <entry file="file://$PROJECT_DIR$/main.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="0">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c" />
+    <entry file="file://C:/TDM-GCC-64/x86_64-w64-mingw32/include/math.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1966">
+          <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <marker date="1476261743263" expanded="true" signature="73:94" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="123:144" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="173:194" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="221:242" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="262:285" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="300:322" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="337:359" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="374:396" ph="{...}" />
-            <marker date="1476261743263" expanded="true" signature="430:811" ph="{...}" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

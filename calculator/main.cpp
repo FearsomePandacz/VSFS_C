@@ -3,44 +3,47 @@
 
 int main();
 
-int add(int a, int b) {
+double add(double a, double b) {
     return a + b;
 }
 
-int subtract(int a, int b) {
+double subtract(double a, double b) {
     return a - b;
 }
 
-int multiply(int a, int b) {
+double multiply(double a, double b) {
     return a * b;
 }
 
-int divide(int a, int b) {
+double divide(double a, double b) {
     return a / b;
 }
 
-int sqroot(int a) {
+double sqrt(double a) {
     return sqrt(a);
 }
 
-int s(int a) {
+double sin(double a) {
     return sin(a);
 }
 
-int c(int a) {
+double cos(double a) {
     return cos(a);
 }
 
-int t(int a) {
+double tan(double a) {
     return tan(a);
 }
 
 int main(int argc, char **argv) {
     char str = NULL;
-    int a = NULL;
-    int b = NULL;
-    char state = NULL; //expect first number, expect operator, expect second number
+    double a = NULL;
+    double b = NULL;
+    int state = 1; //expect first number = a, expect operator = b, expect second number = c
     while(1) {
+        if(state == 1) {
+            scanf()
+        }
         if(scanf("%lf", &a) == 1) {
             if
         } else if(scanf("%s",&str) == 1) {
