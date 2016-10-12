@@ -11,14 +11,8 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b96959c-138c-4e52-ab49-b62f0d58b64c" name="Default" comment="1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3_letters/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../3_letters/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3_letters/main.cpp" afterPath="$PROJECT_DIR$/../3_letters/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../divisors/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../divisors/.idea/workspace.xml" />
+    <list default="true" id="6b96959c-138c-4e52-ab49-b62f0d58b64c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../reading_text/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../reading_text/.idea/workspace.xml" />
     </list>
     <ignored path="multiplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -313,12 +307,20 @@
       <option name="presentableId" value="Default" />
       <updated>1476229670881</updated>
       <workItem from="1476229672165" duration="430000" />
-      <workItem from="1476257186826" duration="479000" />
+      <workItem from="1476257186826" duration="489000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1476257678194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476257678194</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="909000" />
+    <option name="totallyTimeSpent" value="919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
