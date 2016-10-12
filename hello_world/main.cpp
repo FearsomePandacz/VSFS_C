@@ -6,7 +6,7 @@ int print_hello() {
 }
 
 int print_world() {
-    return printf("World\n");
+    return printf("test\n");
 }
 
 int main(int argc, char **argv) {
