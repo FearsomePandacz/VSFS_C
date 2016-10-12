@@ -26,12 +26,12 @@ int birth_year(int day, int month, int year) {
     int i;
     int days = 0;
     if(leap_year(year) && month > 2) {
-        for (i = 0; i < month; ++i) {
+        for (i = 0; i < month - 1; ++i) {
             days = days + months[i];
         }
         days = 366 - days + day;
     } else {
-        for (i = 0; i < month; ++i) {
+        for (i = 0; i < month - 1; ++i) {
             days = days + months[i];
         }
         days = 365 - days + day;
