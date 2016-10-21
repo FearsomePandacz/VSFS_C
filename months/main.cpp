@@ -2,8 +2,8 @@
 #include <conio.h>
 
 char month(int a) {
-    const char *mesic[9] = {"Leden","Unor","Brezen","Duben","Kveten","Cerven","Cervenec","Srpen","Zari"};
-    printf("Mesic je %s",mesic[a]);
+    const char *month[9] = {"Leden","Unor","Brezen","Duben","Kveten","Cerven","Cervenec","Srpen","Zari"};
+    printf("Mesic je %s",month[a]);
 }
 
 int main(int argc, char **argv) {

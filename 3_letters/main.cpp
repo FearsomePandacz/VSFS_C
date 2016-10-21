@@ -14,9 +14,13 @@ int combination(int a, int b) {
 }
 
 int main(int argc, char **argv) {
-    const char *chars[4] = {"T","G","C","A"};
-    int x = combination(4, 3);
-    for(int i = 0; i < x; i++) {
-        printf("%c%c%c",chars[])
+    int i,j,k,x;
+    char chars[5] = "TGCA";
+    x = combination(4, 3);
+    for(i = 0; i < x; i++) {
+        printf("%c",chars[i]);
+        for(j = 1; j < x - 1; i++) {
+            printf("%c",chars[i]);
+        }
     }
 }
