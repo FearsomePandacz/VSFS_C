@@ -1,3 +1,5 @@
+//jiri sulc 2016
+
 #include <stdio.h>
 #include <math.h>
 
