@@ -1,53 +1,43 @@
 #include <stdio.h>
 #include <math.h>
 
-int main();
-
-double add(double a, double b) {
-    return a + b;
-}
-
-double subtract(double a, double b) {
-    return a - b;
-}
-
-double multiply(double a, double b) {
-    return a * b;
-}
-
-double divide(double a, double b) {
-    return a / b;
-}
-
-double sqroot(double a) {
-    return sqrt(a);
-}
-
-double sin_(double a) {
-    return sin(a);
-}
-
-double cos_(double a) {
-    return cos(a);
-}
-
-double tan_(double a) {
-    return tan(a);
-}
-
 int main(int argc, char **argv) {
-    char str = NULL;
-    double a = NULL;
-    double b = NULL;
-    char state = NULL; //expect first number, expect operator, expect second number
+    char a;
+    int b;
+    char operation;
+    b = NULL;
     while(1) {
-        if(scanf("%lf", &a) == 1) {
-            if
-        } else if(scanf("%s",&str) == 1) {
-            //printf("%s - string\n",&str);
-        }
-        if(str == 'Q') {
+        a = getchar();
+        if (a == 'Q') {
             break;
+        } else {
+            if (a == 10) {
+                continue;
+            } else if (a < 58 && a > 47 && b == NULL) {
+                b = a - 48;
+            } else if ((a == '+' || a == '-' || a == '/' || a == '*') && b != NULL) {
+                operation = a;
+            } else if (operation == '+' && a != NULL) {
+                printf("%i\n", b = b + (a - 48));
+                operation = NULL;
+            } else if (operation == '-' && a != NULL) {
+                printf("%i\n", b = b - (a - 48));
+                operation = NULL;
+            } else if (operation == '*' && a != NULL) {
+                printf("%i\n", b = b * (a - 48));
+                operation = NULL;
+            } else if (operation == '/' && a != NULL) {
+                printf("%i\n", b = b / (a - 48));
+                operation = NULL;
+            } else if (a == 'r' && b != NULL) {
+                printf("%i\n", b = sqrt(b));
+            } else if (a == 's' && b != NULL) {
+                printf("%i\n", b = sin(b));
+            } else if (a == 'c' && b != NULL) {
+                printf("%i\n", b = cos(b));
+            } else if (a == 't' && b != NULL) {
+                printf("%i\n", b = tan(b));
+            }
         }
     }
     return 0;
