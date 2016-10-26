@@ -1,62 +1,45 @@
+//jiri sulc 2016
+
 #include <stdio.h>
 #include <math.h>
 
-int main();
-
-double add(double a, double b) {
-    return a + b;
-}
-
-double subtract(double a, double b) {
-    return a - b;
-}
-
-double multiply(double a, double b) {
-    return a * b;
-}
-
-double divide(double a, double b) {
-    return a / b;
-}
-
-double sqrt(double a) {
-    return sqrt(a);
-}
-
-double sin(double a) {
-    return sin(a);
-}
-
-double cos(double a) {
-    return cos(a);
-}
-
-double tan(double a) {
-    return tan(a);
-}
-
 int main(int argc, char **argv) {
-    char str = NULL;
-    double a = NULL;
-    double b = NULL;
-    int state = 1; //expect first number = a, expect operator = b, expect second number = c
+    char a;
+    int b;
+    char operation = NULL;
+    bool bEmpty = true;
     while(1) {
-        if (str == "Q") {
+        a = getchar();
+        if (a == 'Q') {
             break;
         } else {
-            if (state == 1) {
-                if (scanf("%lf", &a) == 1) {
-                    b = NULL;
-                    state = 2;
-                }
-            } else if(state == 2) {
-                if(scanf("%s", &str) == 1) {
-                    if(str == "+" || str == "-" || str == "/" || str == "*") {
-                        state = 3
-                    } else if(str == "sin" || str == "cos" || str == "tan" || str == "sqrt") {
-
-                    }
-                }
+            if (a == 10) {
+                continue;
+            } else if (a < 58 && a > 47 && operation == NULL) {
+                b = a - 48;
+                bEmpty = false;
+            } else if ((a == '+' || a == '-' || a == '/' || a == '*') && !bEmpty) {
+                operation = a;
+            } else if (operation == '+') {
+                printf("%d\n", b = b + (a - 48));
+                operation = NULL;
+            } else if (operation == '-') {
+                printf("%d\n", b = b - (a - 48));
+                operation = NULL;
+            } else if (operation == '*') {
+                printf("%d\n", b = b * (a - 48));
+                operation = NULL;
+            } else if (operation == '/') {
+                printf("%d\n", b = b / (a - 48));
+                operation = NULL;
+            } else if (a == 'r' && !bEmpty) {
+                printf("%d\n", b = sqrt(b));
+            } else if (a == 's' && !bEmpty) {
+                printf("%d\n", b = sin(b));
+            } else if (a == 'c' && !bEmpty) {
+                printf("%d\n", b = cos(b));
+            } else if (a == 't' && !bEmpty) {
+                printf("%d\n", b = tan(b));
             }
         }
     }
